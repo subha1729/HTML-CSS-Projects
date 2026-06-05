@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.profile-card{
+    width:530px;
+    background:white;
+    border-radius:35px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.cover{
+    height:260px;
+    position:relative;
+    background:
+        linear-gradient(
+            rgba(255,255,255,.4),
+            rgba(255,255,255,.4)
+        ),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEXQ29kviIdcDRTFT-6qbuJjd0qMc_mca4g&s");
+    background-size:cover;
+    background-position:center;
+}
+
+.plus-btn{
+    position:absolute;
+    right:25px;
+    top:25px;
+    width:70px;
+    height:70px;
+    border:none;
+    border-radius:50%;
+    background:white;
+    font-size:50px;
+    cursor:pointer;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow:hidden;
+    border:8px solid white;
+    margin:-75px auto 0;
+    position:relative;
+    z-index:10;
+}
+
+.profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.content{
+    text-align:center;
+    padding:20px 40px 40px;
+}
+
+.content h1{
+    font-size:52px;
+    color:#111;
+    margin-top:10px;
+}
+
+.content p{
+    margin-top:20px;
+    color:#666;
+    line-height:1.8;
+    font-size:28px;
+}
+
+.stats{
+    margin-top:40px;
+    border:1px solid #ddd;
+    border-radius:25px;
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.stats h2{
+    color:#111;
+    margin-bottom:10px;
+}
+
+.stats span{
+    color:#777;
+    font-size:18px;
+}
+
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:35px;
+    font-size:40px;
+    color:#111;
+}
