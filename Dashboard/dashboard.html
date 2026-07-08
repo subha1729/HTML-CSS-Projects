@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        rel="stylesheet"
+    />
+
+
+    <!-- Cloudflare Icons (Remix Icon) -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        rel="stylesheet"
+    />
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <!-- outermost div -->
+     <div class = "outermost">
+        
+        <!-- navbar -->
+        <nav class = "nav-bar">
+            <div class = "nav">
+                <ul class = "nav-box1">
+                     <li class="nav-box1-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-list"></i>
+                        </a>
+                     </li>
+
+                     <li class="nav-box1-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-grid-1x2 me-1"></i>
+                            Live preview
+                        </a>
+                    </li>
+
+                     <li class="nav-box1-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-book me-1"></i>
+                            Documentation
+                        </a>
+                     </li>
+                </ul>
+
+                <ul class = "nav-box2">
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-chat-text"></i>
+                            <span class="navbar-badge badge text-bg-danger">3</span>
+                        </a>
+                     </li>
+
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-bell-fill"></i>
+                            <span class="navbar-badge badge text-bg-warning">15</span>
+                        </a>
+                     </li>
+
+
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-arrows-fullscreen"></i>
+                        </a>
+                     </li>
+
+
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                            <i class="bi bi-moon-fill"></i>
+                        </a>
+                     </li>
+
+                    <li class="nav-box2-item">
+                        <a class = "nav-link" href="#">
+                             <img
+                            src="https://adminlte.io/themes/v4/assets/img/user2-160x160.jpg"
+                            class="user-image"
+                            alt="User Image"
+                            />
+                            <span class="d-none d-md-inline">Alexander Pierce</span>
+                        </a>
+                     </li>
+                     
+
+                </ul>
+                
+                
+            </div>
+        </nav>
+        
+        <!-- sidebar -->
+        <aside class = "sidebar">
+            
+            <!-- sidebar header -->
+            <div class="sidebar-header">
+                 <a href="#" class="sidebar-header-link">
+                    <img src="	https://adminlte.io/themes/v4/assets/img/AdminLTELogo.png"
+                     alt="AdminLTE Logo" class="sidebar-header-logo">
+                     <span class="sidebar-header-text">AdminLTE 4</span>
+                 </a>
+            </div>
+
+            <div class="sidebar-body">
+
+            <nav class="sidebar-nav">
+
+                <ul class="menu">
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-speedometer"></i>
+                            <p>Dashboard <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-palette"></i>
+                            <p>Theme Generate</p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-box-seam-fill"></i>
+                            <p>Widgets <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-clipboard-fill"></i>
+                            <p>
+                                Layout Options
+                                <span class="badge1">7</span>
+                                <i class="arrow bi bi-chevron-right"></i>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-tree-fill"></i>
+                            <p>UI Elements <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-envelope"></i>
+                            <p>Mailbox <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-pencil-square"></i>
+                            <p>Forms <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-table"></i>
+                            <p>Tables <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="header">PAGES</li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-file-earmark-text"></i>
+                            <p>Pages <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="header">EXAMPLES</li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-box-arrow-in-right"></i>
+                            <p>Auth <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="header">MULTI LEVEL EXAMPLE</li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle-fill"></i>
+                            <p>Level 1</p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle-fill"></i>
+                            <p>Level 2 <i class="arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle-fill"></i>
+                            <p>Level 3</p>
+                        </a>
+                    </li>
+
+                    <li class="header">LABELS</li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle text-danger"></i>
+                            <p>Important</p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle text-warning"></i>
+                            <p>Warning</p>
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="#" class="link">
+                            <i class="icon bi bi-circle text-info"></i>
+                            <p>Informational</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="sidebar-footer">
+                    <a href="#" class="doc-btn">
+                        <i class="bi bi-book"></i>
+                        View documentation
+                    </a>
+                </div>
+
+            </nav>
+
+            </div>
+
+        </aside>
+        
+        <!-- Main container -->
+        <div class="main">
+            <!-- Main container header -->
+            <div class="main-header">
+                <div class = "main-header-container">
+                    <div class="row">
+                        <div class="col1">
+                            <h3 class="mb-0">Dashboard</h3>
+                        </div>
+                        <div class="col2">
+                            <ol class="breadcum">
+                                <li class = "breadcum-item">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="breadcum-item active" aria-current="page">
+                                    <!-- ::before -->
+                                    Dashboard
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="main-content">
+                <div class="main-content-sub">
+                    <div class="row1">
+
+                        <!-- box1 -->
+                         
+                        <div class="col">
+                             <div class = "small-box bg1">
+                                <div class="inner">
+                                    <h3>150</h3>
+                                    <p>New Orders</p>
+                                </div>
+                                <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
+                                </svg>
+                                
+                                <a href="#"class="small-box-bellow">
+                                    More info
+                                    <i class="bi bi-link-45deg">
+                                        <!-- ::before -->
+                                    </i>
+                                </a> 
+
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col">
+                            
+                             <div class="small-box bg2">
+                                <div class="inner">
+                                    <h3>
+                                        53
+                                        <sup class="fs-5">%</sup>
+                                    </h3>
+                                    <p>Bounce Rate</p>
+                                </div>
+                                <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path>
+                                </svg>
+
+                                <a class="small-box-bellow" href="#">
+                                    More info
+                                    <i class="bi bi-link-45deg">
+                                        <!-- ::before -->
+                                    </i>
+                                </a>
+                           
+                            </div> 
+                        </div>
+                        <div class="col">
+                             <div class="small-box bg3 font">
+                                
+                                <div class="inner">
+                                    <h3>
+                                        44
+                                    </h3>
+                                    <p>User Registrations</p>
+                                </div>
+                                <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M6.25 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM3.25 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM19.75 7.5a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25v2.25a.75.75 0 001.5 0v-2.25H22a.75.75 0 000-1.5h-2.25V7.5z"></path>
+                                </svg>
+
+                                <a href="#" class="small-box-bellow font">
+                                    More info
+                                    <i class="bi bi-link-45deg">
+                                        <!-- ::before -->
+                                    </i>
+                                </a>
+                           
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <div class="small-box bg4">
+                                
+                                <div class="inner">
+                                    <h3>
+                                        65
+                                    </h3>
+                                    <p>Unique Visitors</p>
+                                </div>
+                                <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z"></path>
+                                    <path clip-rule="evenodd" fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z"></path>
+                                </svg>
+
+                                <a href="#" class="small-box-bellow">
+                                    More info
+                                    <i class="bi bi-link-45deg">
+                                        <!-- ::before -->
+                                    </i>
+                                </a>
+                                
+                            </div>
+                        
+                        </div>
+                        
+                    
+                    </div>
+
+                    <div class="row2">
+
+                        <div class="row2-col1">
+                            <div class= "card mb-4">
+                                <div class = "card-header">
+                                    <h3 class="card-title">Sales Value</h3>
+                                     
+                                </div>
+                                <div class="card-body">
+                                   <img src="img1.png" alt="" class="img1">
+                                </div>
+
+                            </div>
+
+                            <div class= "card mb-4">
+                                <div class="card-body">
+                                   <img src="img2.png" alt="" class="img2">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row2-clo2">
+                            <div class = 'card right-card mb-4'>
+                                <img src="img3.png" alt="" class="img3">
+                            </div>
+                             
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        
+        <!-- <div class = "footer"> -->
+
+        </div>
+
+        <footer class="footer-right">
+              <div class="float-end">Anything you want</div>
+              <strong>Copyright © 2014-2026&nbsp;
+               <a href="dashboard.html" class="text-decoration-none">AdminLTE.io</a>
+               .
+              </strong>
+              All right reserved.
+        </footer>
+
+
+     </div>
+     
+</body>
+</html>
+          
